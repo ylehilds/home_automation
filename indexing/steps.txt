@@ -1,4 +1,4 @@
-# install requests on system wide
+# install requests,oauth2client, httplib2 on system wide
 sudo apt install python3-requests
 sudo apt install python3-oauth2client
 sudo apt install python3-httplib2
