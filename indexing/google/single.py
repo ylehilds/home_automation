@@ -20,6 +20,6 @@ payload = {
 response, content = http.request(publish_endpoint, method="POST", body=json.dumps(payload))
 
 if response.status == 200:
-    print(f'The submission was successful. Google reported a {response.status} response code.')
+    print(f'The submission was successful. Google reported a {response.status} response code for url: {index_url}.')
 else:
-    print(f'The submission was not successful. Google reported a {response.status} response code, instead of 200.')
+    print(f'The submission was not successful. Google reported a {response.status} response code, instead of 200 for url: {index_url}.')
