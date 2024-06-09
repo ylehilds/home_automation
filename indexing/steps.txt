@@ -1,0 +1,3 @@
+# install requests on system wide
+sudo apt install python3-requests
+

@@ -163,3 +163,4 @@ cython_debug/
 
 # secrets
 service_account.json
+config.py
