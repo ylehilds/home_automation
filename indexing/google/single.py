@@ -1,9 +1,6 @@
 from oauth2client.service_account import ServiceAccountCredentials
 import httplib2
-import urllib
 import json
-
-import config
 
 authentication_scopes = [ "https://www.googleapis.com/auth/indexing" ]
 publish_endpoint = "https://indexing.googleapis.com/v3/urlNotifications:publish"
