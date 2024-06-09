@@ -1,4 +1,3 @@
-import json
 import requests
 
 ## Secrets
@@ -15,6 +14,6 @@ headers = { "Content-Type": "application/json; charset=utf-8" } #Bing response h
 submission_request = requests.post(f"{bing_submission_url}{bing_api_key}", headers=headers, json=bing_submission_urls)
 
 if submission_request.status_code == 200:
-	print("Submission to Bing was successful.")
+    print("Submission to Bing was successful.")
 else:
-	print("Submission was not successful or daily limit is reached. Please try again.")
+    print("Submission was not successful or daily limit is reached. Please try again.")
