@@ -12,3 +12,13 @@ https://brianli.com/submitting-changed-urls-to-bing-webmaster-tools-with-python/
 # send indexing requests to google, mainly based on this website, I just added a for loop:
 https://brianli.com/2020/12/google-search-instant-indexing-with-python/
 
+# getting the google batch working:
+https://github.com/googleapis/google-api-python-client
+https://www.jcchouinard.com/google-indexing-api-with-python/
+
+sudo apt install python3-virtualenv
+virtualenv google_batch
+source google_batch/bin/activate
+google_batch/bin/pip install google-api-python-client
+google_batch/bin/pip install oauth2client
+
