@@ -1,5 +1,4 @@
 0 * * * * python /home/pi/Documents/deviceSDK/awsMQTTPublish.py
 */5 * * * * sh /home/pi/Desktop/restart_slack_pi_bot_project.sh
 */5 2 * * * /home/pi/.nvm/versions/node/v16.15.1/bin/node /home/pi/scripts/google-indexing-api-bulk/index.js
-*/5 3 * * * /home/pi/.nvm/versions/node/v16.15.1/bin/node /home/pi/scripts/bing-indexing-api-bulk/index.js
-*/5 3 * * * /home/pi/.nvm/versions/node/v16.15.1/bin/node /home/pi/scripts/bing-indexing-api-bulk/index2.js
+*/15 1 * * * python /home/lehi/dev/home_automation/indexing/bing/index.py
