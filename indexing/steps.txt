@@ -1,9 +1,14 @@
 # install requests on system wide
 sudo apt install python3-requests
+sudo apt install python3-oauth2client
+sudo apt install python3-httplib2
+
+# getting github to push on raspberry pi:
+https://lindevs.com/install-github-cli-on-raspberry-pi/#:~:text=Run%20the%20following%20command%20to%20install%20GitHub%20CLI%3A,GitHub%20CLI%20will%20be%20available%20with%20gh%20command.
 
 # send indexing requests to bing:
 https://brianli.com/submitting-changed-urls-to-bing-webmaster-tools-with-python/
 
-# getting github to push on raspberry pi:
-https://lindevs.com/install-github-cli-on-raspberry-pi/#:~:text=Run%20the%20following%20command%20to%20install%20GitHub%20CLI%3A,GitHub%20CLI%20will%20be%20available%20with%20gh%20command.
+# send indexing requests to google, mainly based on this website, I just added a for loop:
+https://brianli.com/2020/12/google-search-instant-indexing-with-python/
 
