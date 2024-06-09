@@ -1,12 +1,17 @@
 import requests
 
 ## Secrets
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '..','..'))
 import config
+
+#urls
 import urls
 
 ## Bing Info
 bing_submission_url = "https://ssl.bing.com/webmaster/api.svc/json/SubmitUrlbatch?apikey="
-bing_api_key = config.api_key
+bing_api_key = config.bing_api_key
 bing_submission_urls = { "siteUrl":"https://lehi.dev", "urlList":urls.submission_url_list } #Create URL list to submit to Bing.
 headers = { "Content-Type": "application/json; charset=utf-8" } #Bing response headers.
 
