@@ -1,3 +1,9 @@
 # install requests on system wide
 sudo apt install python3-requests
 
+# send indexing requests to bing:
+https://brianli.com/submitting-changed-urls-to-bing-webmaster-tools-with-python/
+
+# getting github to push on raspberry pi:
+https://lindevs.com/install-github-cli-on-raspberry-pi/#:~:text=Run%20the%20following%20command%20to%20install%20GitHub%20CLI%3A,GitHub%20CLI%20will%20be%20available%20with%20gh%20command.
+
