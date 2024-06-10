@@ -1,7 +1,10 @@
 #Install nmap as the script uses it for a certain command:
 sudo apt install python3-nmap
 
-scripts usage for wemo control see scripts as well, wemo_ip_address can be found in your router connections details:
+#Make sure you are in same network and that you can ping the ip address of wemo smart plug
+ping <wemo_ip_address> 
+
+#Scripts usage for wemo control see scripts as well, wemo_ip_address can be found in your router connections details:
 ./wemo_control2 <wemo_ip_address> on/off
 or
 ./wemo_control <wemo_ip_address> ONN/OFF
