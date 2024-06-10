@@ -5,6 +5,7 @@ https://www.man7.org/linux/man-pages/man5/crontab.5.html
 https://www.hostinger.co.uk/tutorials/crontab-syntax
 https://medium.com/@summitpanda/understanding-crontab-in-linux-with-useful-examples-for-scheduling-tasks-5221f8712683
 https://manpages.debian.org/buster/cron/crontab.5.en.html
+https://crontab.guru # my favorite it is interactive and let's you try it and explains it.
 
 # Use the hash sign to prefix a comment
 # +---------------- minute (0 - 59)
@@ -23,4 +24,4 @@ https://manpages.debian.org/buster/cron/crontab.5.en.html
 #*/5 1 * * * python /home/lehi/dev/home_automation/indexing/google/index.py >> ~/crontab_log.txt 2>&1
 0 10 * * 1 python /home/lehi/dev/home_automation/ponderizing/index.py >> ~/crontab_log.txt 2>&1
 5 10 * * 1 python /home/lehi/dev/home_automation/activities/index.py >> ~/crontab_log.txt 2>&1
-15 0 1 * * echo "" > ~/crontab_log.txt 2>&1
+15 0 1,15 * * echo "" > ~/crontab_log.txt 2>&1
