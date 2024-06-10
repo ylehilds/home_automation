@@ -19,7 +19,7 @@ https://manpages.debian.org/buster/cron/crontab.5.en.html
 0 * * * * python /home/pi/Documents/deviceSDK/awsMQTTPublish.py
 */5 * * * * sh /home/pi/Desktop/restart_slack_pi_bot_project.sh
 */5 2 * * * python /home/lehi/dev/home_automation/indexing/bing/index.py >> ~/crontab_log.txt 2>&1
-*/5 1 * * * python /home/lehi/dev/home_automation/indexing/google_batch/index.py >> ~/crontab_log.txt 2>&1
+*/5 1 * * * /home/lehi/dev/home_automation/indexing/google_batch/google_batch/bin/python /home/lehi/dev/home_automation/indexing/google_batch/index.py >> ~/crontab_log.txt 2>&1
 #*/5 1 * * * python /home/lehi/dev/home_automation/indexing/google/index.py >> ~/crontab_log.txt 2>&1
 0 10 * * 1 python /home/lehi/dev/home_automation/ponderizing/index.py >> ~/crontab_log.txt 2>&1
 5 10 * * 1 python /home/lehi/dev/home_automation/activities/index.py >> ~/crontab_log.txt 2>&1
