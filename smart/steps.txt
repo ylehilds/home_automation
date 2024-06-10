@@ -1,0 +1,4 @@
+TODO:
+    #1: Bring the Kasa script
+    #2: pull secrets to config.py file
+    #3: test

@@ -1,0 +1,5 @@
+TODO:
+    #1: pull secrets to config.py file
+    #2: Work on aws sdk files, bring them over
+    #3: test
+    #4: likely need to set raspberry pi with a static IP address
