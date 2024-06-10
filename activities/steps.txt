@@ -1,0 +1,1 @@
+I think the main thing here is to make sure the email provider settings is correct so double check with your email provider the email settings to be used by this script
