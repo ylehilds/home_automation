@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=Script To Reboot System
+Terminal=true
+Name=RebootSystem
+Exec=lxterminal -e sudo reboot
+Type=Application
+Icon=/usr/share/pixmaps/htop.png

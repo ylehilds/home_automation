@@ -1,0 +1,7 @@
+Linux shutdown commands are entered in the Linux terminal that is launched by using the keyboard shortcut [Ctrl] + [Alt] + [T]. 
+You can then close the terminal window with the shortcut [Ctrl] + [D].
+
+https://www.ionos.com/digitalguide/server/configuration/linux-shutdown-command/
+
+the one i used the most is: sudo reboot
+
