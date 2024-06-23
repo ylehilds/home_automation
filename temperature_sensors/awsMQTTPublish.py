@@ -36,7 +36,7 @@ myMQTTClient.configureDrainingFrequency(2)  # Draining: 2 Hz
 myMQTTClient.configureConnectDisconnectTimeout(10)  # 10 sec
 myMQTTClient.configureMQTTOperationTimeout(5)  # 5 sec
 
-'''
+
 tooManyTries = False
 retry = 0
 while (retry < 10):
@@ -57,7 +57,7 @@ while (retry < 10):
     if (tooManyTries == True):
         message = {"room": "basement", "temperature": "0"}
         myMQTTClient.publish("IoTTemperatureProject", message, 0)
- '''       
+
 tooManyTries = False
 retry = 0
 while (retry < 10):
@@ -78,7 +78,7 @@ while (retry < 10):
         message = {"room": "main", "temperature": "0"}
         myMQTTClient.publish("IoTTemperatureProject", message, 0)
 
-        '''
+
 tooManyTries = False
 retry = 0
 while (retry < 10):
@@ -99,7 +99,6 @@ while (retry < 10):
         message = {"room": "upstairs", "temperature": "0"}
         myMQTTClient.publish("IoTTemperatureProject", message, 0)
 
-'''
 
 '''
 # reading 2
