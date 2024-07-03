@@ -1,0 +1,13 @@
+Raspberry Pi OS: 32-bit vs 64-bit Benchmarking:
+    https://www.sevarg.net/2021/12/18/raspberry-pi-32-bit-vs-64-bit/
+    
+
+
+My favorite time & date settings for Rasperry PI Desktop/OS:
+    https://forums.raspberrypi.com/viewtopic.php?t=283829
+    
+
+How do I set default web browser?:
+    https://forums.raspberrypi.com/viewtopic.php?t=218036
+    
+
