@@ -1,5 +1,6 @@
 submission_url_list = {
 "https://motivational.lehi.dev/":'URL_UPDATED',
+"https://motivational.lehi.dev/2024/07/100.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2024/07/keep-moving-forward.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2023/07/why-i-succeed.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2023/06/love-what-you-do.html":'URL_UPDATED',
