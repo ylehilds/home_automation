@@ -32,9 +32,9 @@ def sendMail(scripture):
         server.login(username,password)
         server.sendmail(fromaddr, toaddrs, msg.as_string())
         server.close()
-        print ('successfully sent the email')
+        print ('successfully sent the ponderizing email')
     except Exception:
-        print('failed to send the email\n')
+        print('failed to send the ponderizing email\n')
         print(traceback.format_exc())
         
 scriptures_path = os.path.join(os.path.dirname(__file__), 'scriptures.txt')        

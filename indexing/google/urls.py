@@ -47,5 +47,9 @@ submission_url_list = [
 "https://www.lehi.dev/",
 "https://www.lehi.dev/home",
 "https://www.lehi.dev/about",
-"https://www.lehi.dev/publications"
+"https://www.lehi.dev/publications",
+"https://tech.lehi.dev/",
+"https://tech.lehi.dev/about",
+"https://tech.lehi.dev/resume",
+"https://tech.lehi.dev/research-projects"
 ]

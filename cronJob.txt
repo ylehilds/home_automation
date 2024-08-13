@@ -17,11 +17,11 @@ https://crontab.guru # my favorite it is interactive and let's you try it and ex
 # *  *  *  *  *  command to be executed
 #--------------------------------------------------------------------------
 
-0 * * * * python /home/lehi/dev/home_automation/temperature_sensors/awsMQTTPublish.py >> ~/crontab_log.txt 2>&1
-*/10 * * * * sh /home/lehi/dev/home_automation/temperature_sensors/restart_slack_pi_bot_project.sh >> ~/crontab_log.txt 2>&1
-*/5 2 * * * python /home/lehi/dev/home_automation/indexing/bing/index.py >> ~/crontab_log.txt 2>&1
-*/5 1 * * * /home/lehi/dev/home_automation/indexing/google_batch/google_batch/bin/python /home/lehi/dev/home_automation/indexing/google_batch/index.py >> ~/crontab_log.txt 2>&1
-#*/5 1 * * * python /home/lehi/dev/home_automation/indexing/google/index.py >> ~/crontab_log.txt 2>&1
-0 10 * * 1 python /home/lehi/dev/home_automation/ponderizing/index.py >> ~/crontab_log.txt 2>&1
-5 10 * * 1 python /home/lehi/dev/home_automation/activities/index.py >> ~/crontab_log.txt 2>&1
-15 0 1,15 * * echo "" > ~/crontab_log.txt 2>&1
+0 * * * * (echo -e "\n$(date), sensors_aws_MQTT_Publish script:" && python /home/lehi/dev/home_automation/temperature_sensors/awsMQTTPublish.py) >> ~/crontab_log.txt 2>&1
+*/10 * * * * (echo -e "\n$(date), restart_slack_pi_bot script:" && sh /home/lehi/dev/home_automation/temperature_sensors/restart_slack_pi_bot_project.sh) >> ~/crontab_log.txt 2>&1
+*/5 2 * * * (echo -e "\n$(date), bing_index script:" && python /home/lehi/dev/home_automation/indexing/bing/index.py) >> ~/crontab_log.txt 2>&1
+*/5 1 * * * (echo -e "\n$(date), google_batch script:" && /home/lehi/dev/home_automation/indexing/google_batch/google_batch/bin/python /home/lehi/dev/home_automation/indexing/google_batch/index.py) >> ~/crontab_log.txt 2>&1
+#*/5 1 * * * (echo -e "\n$(date), google_index_single script:" && python /home/lehi/dev/home_automation/indexing/google/index.py) >> ~/crontab_log.txt 2>&1
+0 10 * * 1 (echo -e "\n$(date), ponderizing script:" && python /home/lehi/dev/home_automation/ponderizing/index.py) >> ~/crontab_log.txt 2>&1
+5 10 * * 1 (echo -e "\n$(date), activities script:" && python /home/lehi/dev/home_automation/activities/index.py) >> ~/crontab_log.txt 2>&1
+15 0 1,15 * * echo -e "Cleared on: $(date)" > ~/crontab_log.txt 2>&1

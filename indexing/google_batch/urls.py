@@ -47,5 +47,9 @@ submission_url_list = {
 "https://www.lehi.dev/":'URL_UPDATED',
 "https://www.lehi.dev/home":'URL_UPDATED',
 "https://www.lehi.dev/about":'URL_UPDATED',
-"https://www.lehi.dev/publications":'URL_UPDATED'
+"https://www.lehi.dev/publications":'URL_UPDATED',
+"https://tech.lehi.dev/":'URL_UPDATED',
+"https://tech.lehi.dev/about":'URL_UPDATED',
+"https://tech.lehi.dev/resume":'URL_UPDATED',
+"https://tech.lehi.dev/research-projects":'URL_UPDATED'
 }
