@@ -1,5 +1,8 @@
 submission_url_list = [
 "https://motivational.lehi.dev/",
+"https://motivational.lehi.dev/2024/12/choosing.html",
+"https://motivational.lehi.dev/2024/12/live-for-today.html",
+"https://motivational.lehi.dev/2024/12/mind-than-tongue.html",
 "https://motivational.lehi.dev/2024/07/100.html",
 "https://motivational.lehi.dev/2024/07/keep-moving-forward.html",
 "https://motivational.lehi.dev/2023/07/why-i-succeed.html",
