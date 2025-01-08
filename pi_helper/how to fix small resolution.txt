@@ -1,7 +1,8 @@
 1. in terminal run this command:
 sudo raspi-config
 
-2. then: Advanced Option > Resolution then go with the highest one: DMT Mode 82 1920 x 1080 60Hz 16:9
+2. then: Advanced Options > Resolution then go with the highest one: DMT Mode 82 1920 x 1080 60Hz 16:9
+   if for VNC Viewer then go to "Display Options" > "VNC Resolution" then go with the highest one: 1920 x 1080
 3. OK, OK again then Finish/reboot
 4. it should reboot on its own, it not in terminal use this command: sudo reboot
 
