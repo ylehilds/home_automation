@@ -1,5 +1,7 @@
 submission_url_list = [
 "https://motivational.lehi.dev/",
+"https://motivational.lehi.dev/2025/01/it-takes-people-to-make-dream-reality.html",
+"https://motivational.lehi.dev/2025/01/courage-to-dream.html",
 "https://motivational.lehi.dev/2025/01/selfish.html",
 "https://motivational.lehi.dev/2025/01/focus.html",
 "https://motivational.lehi.dev/2025/01/refuses.html",
