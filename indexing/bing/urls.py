@@ -1,5 +1,6 @@
 submission_url_list = [
 "https://motivational.lehi.dev/",
+"https://motivational.lehi.dev/2025/02/success-achieved-by-determination-lehi.html",
 "https://motivational.lehi.dev/2025/02/work-and-results.html",
 "https://motivational.lehi.dev/2025/02/goal-deadline.html",
 "https://motivational.lehi.dev/2025/02/want-wish-make-it-happen.html",
