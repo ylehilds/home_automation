@@ -1,5 +1,6 @@
 submission_url_list = [
 "https://motivational.lehi.dev/",
+"https://motivational.lehi.dev/2025/04/50-golden-rules-to-live-by.html",
 "https://motivational.lehi.dev/2025/04/growth-comfort.html",
 "https://motivational.lehi.dev/2025/04/growth.html",
 "https://motivational.lehi.dev/2025/04/distraction.html",
