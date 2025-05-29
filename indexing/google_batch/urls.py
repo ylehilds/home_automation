@@ -1,5 +1,7 @@
 submission_url_list = {
 "https://motivational.lehi.dev/":'URL_UPDATED',
+"https://motivational.lehi.dev/2025/05/decide-qualities-you-want.html":'URL_UPDATED',
+"https://motivational.lehi.dev/2025/05/path-to-lifelong-success-and-happiness.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2025/05/happy-life-tie-to-goal.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2025/04/50-golden-rules-to-live-by.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2025/04/growth-comfort.html":'URL_UPDATED',
