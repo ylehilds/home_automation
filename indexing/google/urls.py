@@ -1,5 +1,6 @@
 submission_url_list = [
 "https://motivational.lehi.dev/",
+"https://motivational.lehi.dev/2025/05/youre-only-as-good-as-people-in-room.html",
 "https://motivational.lehi.dev/2025/05/decide-qualities-you-want.html",
 "https://motivational.lehi.dev/2025/05/path-to-lifelong-success-and-happiness.html",
 "https://motivational.lehi.dev/2025/05/happy-life-tie-to-goal.html",
