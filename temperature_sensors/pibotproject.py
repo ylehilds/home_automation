@@ -1,19 +1,12 @@
-import re
-import time
-import json
-import psutil
-import requests
-from subprocess import call
+import os, sys, re, time, json, psutil, requests
+from subprocess import call, run
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 from slack_sdk.socket_mode import SocketModeClient
 from slack_sdk.socket_mode.request import SocketModeRequest
 from slack_sdk.socket_mode.response import SocketModeResponse
-from subprocess import run, PIPE
 
 # Load config
-import sys
-import os
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 import config
 
@@ -27,7 +20,6 @@ socket_client = SocketModeClient(app_token=SLACK_APP_TOKEN, web_client=slack_cli
 API_ENDPOINT_BASEMENT = config.aws['sensors_server_ip_address'] + "/temperature/basement"
 API_ENDPOINT_MAIN = config.aws['sensors_server_ip_address'] + "/temperature/main"
 API_ENDPOINT_UPSTAIRS = config.aws['sensors_server_ip_address'] + "/temperature/upstairs"
-FAN_STATE = 'OFF'
 
 # Handle events
 def process(client: SocketModeClient, req: SocketModeRequest):
@@ -55,30 +47,20 @@ def process(client: SocketModeClient, req: SocketModeRequest):
                 send_temperature(channel, API_ENDPOINT_UPSTAIRS, "upstairs")
 
             elif re.match(r'.*(fan on).*', message_text, re.IGNORECASE):
-                if FAN_STATE == 'OFF':
-                    FAN_STATE = 'ON'
-                    print("Turning on the fan")
-                    try:
-                        result = run(['./wemo_control2.sh', config.slack['wemo_device_ip'], 'on'], stdout=PIPE, stderr=PIPE, text=True, check=True)
-                        print("Exit Code:", result.returncode)
-                        print("STDOUT:", result.stdout)
-                        print("STDERR:", result.stderr)
-                    except Exception as e:
-                        print("Error running wemo_control2.sh:", str(e))
-                    slack_client.chat_postMessage(channel=channel, text="Successfully Turned On the fan!")
+                print("Turning on the fan")
+                try:
+                    run(['./wemo_control2.sh', config.slack['wemo_device_ip'], 'on'])
+                except Exception as e:
+                    print("Error running wemo_control2.sh:", str(e))
+                slack_client.chat_postMessage(channel=channel, text="Successfully Turned On the fan!")
 
             elif re.match(r'.*(fan off).*', message_text, re.IGNORECASE):
-                if FAN_STATE == 'ON':
-                    FAN_STATE = 'OFF'
-                    print("Turning off the fan")
-                    try:
-                        result = run(['./wemo_control2.sh', config.slack['wemo_device_ip'], 'off'], stdout=PIPE, stderr=PIPE, text=True, check=True) 
-                        print("Exit Code:", result.returncode)
-                        print("STDOUT:", result.stdout)
-                        print("STDERR:", result.stderr)
-                    except Exception as e:
-                        print("Error running wemo_control2.sh:", str(e))
-                    slack_client.chat_postMessage(channel=channel, text="Successfully Turned Off the fan!")
+                print("Turning off the fan")
+                try:
+                    run(['./wemo_control2.sh', config.slack['wemo_device_ip'], 'off']) 
+                except Exception as e:
+                    print("Error running wemo_control2.sh:", str(e))
+                slack_client.chat_postMessage(channel=channel, text="Successfully Turned Off the fan!")
 
 def send_temperature(channel, endpoint, label):
     retry = 0
