@@ -22,7 +22,6 @@ submission_url_list = {
 "https://motivational.lehi.dev/2025/01/it-takes-people-to-make-dream-reality.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2025/01/courage-to-dream.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2025/01/selfish.html":'URL_UPDATED',
-"https://motivational.lehi.dev/2025/01/focus.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2025/01/refuses.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2025/01/discipline.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2025/01/distraction-kills.html":'URL_UPDATED',
