@@ -1,5 +1,8 @@
 submission_url_list = {
 "https://motivational.lehi.dev/":'URL_UPDATED',
+"https://motivational.lehi.dev/2025/09/do-grades-actually-matter.html":'URL_UPDATED',
+"https://motivational.lehi.dev/2025/09/never-let-schooling-interfere-with-your-education.html":'URL_UPDATED',
+"https://motivational.lehi.dev/2025/09/how-to-not-get-easily-distracted.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2025/09/how-you-stop-being-distracted.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2025/06/top-motivational-quotes-from-famous.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2025/06/happiness.html":'URL_UPDATED',
