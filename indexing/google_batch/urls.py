@@ -68,7 +68,7 @@ submission_url_list = {
 "https://motivational.lehi.dev/2010/07/favorite.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2010/07/never-let-fear-of-striking-out-get-in.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2010/07/to-start-off.html":'URL_UPDATED',
-"https://cast.lehi.dev":'URL_UPDATED',
+"https://cast.lehi.dev/the-force-awakens":'URL_UPDATED',
 "https://movies.lehi.dev":'URL_UPDATED',
 "https://scriptures.lehi.dev":'URL_UPDATED',
 "https://analysis.lehi.dev":'URL_UPDATED',

@@ -68,7 +68,7 @@ submission_url_list = [
 "https://motivational.lehi.dev/2010/07/favorite.html",
 "https://motivational.lehi.dev/2010/07/never-let-fear-of-striking-out-get-in.html",
 "https://motivational.lehi.dev/2010/07/to-start-off.html",
-"https://cast.lehi.dev",
+"https://cast.lehi.dev/the-force-awakens",
 "https://movies.lehi.dev",
 "https://scriptures.lehi.dev",
 "https://analysis.lehi.dev",
