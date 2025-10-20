@@ -1,5 +1,7 @@
 submission_url_list = [
 "https://motivational.lehi.dev/",
+"https://motivational.lehi.dev/2025/10/who-have-something-to-say-lehi.html",
+"https://motivational.lehi.dev/2025/10/you-become-unstoppable.html",
 "https://motivational.lehi.dev/2025/09/do-grades-actually-matter.html",
 "https://motivational.lehi.dev/2025/09/never-let-schooling-interfere-with-your-education.html",
 "https://motivational.lehi.dev/2025/09/how-to-not-get-easily-distracted.html",
