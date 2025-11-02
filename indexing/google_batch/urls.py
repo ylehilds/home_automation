@@ -1,5 +1,6 @@
 submission_url_list = {
 "https://motivational.lehi.dev/":'URL_UPDATED',
+"https://motivational.lehi.dev/2025/11/you-get-what-you-work-for.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2025/10/who-have-something-to-say-lehi.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2025/10/you-become-unstoppable.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2025/09/do-grades-actually-matter.html":'URL_UPDATED',
