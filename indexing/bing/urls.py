@@ -1,5 +1,6 @@
 submission_url_list = [
 "https://motivational.lehi.dev/",
+"https://motivational.lehi.dev/2025/11/joy-and-depression-can-not-coexist.html",
 "https://motivational.lehi.dev/2025/11/experience-correlates-to-effort.html",
 "https://motivational.lehi.dev/2025/11/you-get-what-you-work-for.html",
 "https://motivational.lehi.dev/2025/10/who-have-something-to-say-lehi.html",
