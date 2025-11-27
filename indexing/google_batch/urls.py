@@ -1,5 +1,8 @@
 submission_url_list = {
 "https://motivational.lehi.dev/":'URL_UPDATED',
+"https://motivational.lehi.dev/2025/11/how-to-be-happy-and-successful.html":'URL_UPDATED',
+"https://motivational.lehi.dev/2025/11/change-your-environment-and-watch-your.html":'URL_UPDATED',
+"https://motivational.lehi.dev/2025/11/how-to-not-be-depressed.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2025/11/joy-and-depression-can-not-coexist.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2025/11/experience-correlates-to-effort.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2025/11/you-get-what-you-work-for.html":'URL_UPDATED',
