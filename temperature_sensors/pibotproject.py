@@ -50,17 +50,19 @@ def process(client: SocketModeClient, req: SocketModeRequest):
                 print("Turning on the fan")
                 try:
                     run(['./wemo_control2.sh', config.slack['wemo_device_ip'], 'on'])
+                    slack_client.chat_postMessage(channel=channel, text="Successfully Turned On the fan!")
                 except Exception as e:
                     print("Error running wemo_control2.sh:", str(e))
-                slack_client.chat_postMessage(channel=channel, text="Successfully Turned On the fan!")
+                    slack_client.chat_postMessage(channel=channel, text="Error running wemo_control2.sh!" + str(e))
 
             elif re.match(r'.*(fan off).*', message_text, re.IGNORECASE):
                 print("Turning off the fan")
                 try:
                     run(['./wemo_control2.sh', config.slack['wemo_device_ip'], 'off']) 
+                    slack_client.chat_postMessage(channel=channel, text="Successfully Turned Off the fan!")
                 except Exception as e:
                     print("Error running wemo_control2.sh:", str(e))
-                slack_client.chat_postMessage(channel=channel, text="Successfully Turned Off the fan!")
+                    slack_client.chat_postMessage(channel=channel, text="Error running wemo_control2.sh!" + str(e))
 
 def send_temperature(channel, endpoint, label):
     retry = 0
