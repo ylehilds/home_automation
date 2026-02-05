@@ -1,5 +1,6 @@
 submission_url_list = {
 "https://motivational.lehi.dev/":'URL_UPDATED',
+"https://motivational.lehi.dev/2026/02/the-happiness-of-your-life-depends-upon-the-quality-of-your-thoughts.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2026/02/dont-speak-negatively-about-yourself.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2026/02/empty-your-mind-be-formless-shapeless-like-water.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2026/02/every-morning-everyone-should-speak-these-5-affirmations.html":'URL_UPDATED',
