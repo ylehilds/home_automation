@@ -1,5 +1,6 @@
 submission_url_list = [
 "https://motivational.lehi.dev/",
+"https://motivational.lehi.dev/2026/03/ocus-on-improving-yourself-not-proving.html",
 "https://motivational.lehi.dev/2026/02/the-happiness-of-your-life-depends-upon-the-quality-of-your-thoughts.html",
 "https://motivational.lehi.dev/2026/02/dont-speak-negatively-about-yourself.html",
 "https://motivational.lehi.dev/2026/02/empty-your-mind-be-formless-shapeless-like-water.html",
