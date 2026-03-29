@@ -1,6 +1,8 @@
 submission_url_list = {
 "https://motivational.lehi.dev/":'URL_UPDATED',
-"https://motivational.lehi.dev/2026/03/ocus-on-improving-yourself-not-proving.html":'URL_UPDATED',
+"https://motivational.lehi.dev/2026/03/dont-chase-become-it.html":'URL_UPDATED',
+"https://motivational.lehi.dev/2026/03/you-owe-me-for-years-not-minutes.html":'URL_UPDATED',
+"https://motivational.lehi.dev/2026/03/focus-on-improving-yourself-not-proving.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2026/02/the-happiness-of-your-life-depends-upon-the-quality-of-your-thoughts.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2026/02/dont-speak-negatively-about-yourself.html":'URL_UPDATED',
 "https://motivational.lehi.dev/2026/02/empty-your-mind-be-formless-shapeless-like-water.html":'URL_UPDATED',
